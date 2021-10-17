@@ -2,13 +2,13 @@ mysql-ctl cli                 /*to stop the SQL server*/
 
 USE hw_student;            /*to use the created DATABASE*/ 
 
-CREATE TABLE `teachers`           /*to create a TABLE*/
+CREATE TABLE teachers           /*to create a TABLE*/
 (
-	`id_no` INT NOT NULL AUTO_INCREMENT,
-	`Name` CHAR(60) NOT NULL DEFAULT 'UNKNOWN USER',
-	`Address` CHAR(100),
-	`Age` INT NOT NULL,
-	PRIMARY KEY (`id_no`)
+	id_no INT NOT NULL AUTO_INCREMENT,
+	Name CHAR(60) NOT NULL DEFAULT 'UNKNOWN USER',
+	Address CHAR(100),
+	Age INT NOT NULL,
+	PRIMARY KEY (id_no)
 );
 
 
