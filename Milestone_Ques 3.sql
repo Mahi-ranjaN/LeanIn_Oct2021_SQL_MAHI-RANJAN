@@ -4,12 +4,12 @@ CREATE DATABASE pastry_shop;   /*to create a DATABASE*/
 
 USE pastry_shop;   /*to use the created DATABASE*/
 
-CREATE TABLE `pastry_shop`   /*to create a TABLE*/
+CREATE TABLE pastry_shop   /*to create a TABLE*/
 (
-	`s_no` INT NOT NULL AUTO_INCREMENT,
-	`pastry_name` CHAR(30) NOT NULL DEFAULT 'UNAVAILABLE',
-	`price` INT NOT NULL DEFAULT '9999',
-	PRIMARY KEY (`s_no`)
+	s_no INT NOT NULL AUTO_INCREMENT,
+	pastry_name CHAR(30) NOT NULL DEFAULT 'UNAVAILABLE',
+	price INT NOT NULL DEFAULT '9999',
+	PRIMARY KEY (s_no)
 );
 
 
