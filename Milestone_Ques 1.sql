@@ -4,13 +4,13 @@ CREATE DATABASE hw_student;   /*to create a DATABASE*/
 
 USE hw_student;   /*to use the created DATABASE*/     
 
-CREATE TABLE `students_data`  /*to create a TABLE*/
+CREATE TABLE students_data  /*to create a TABLE*/
 (
-	`roll_no` INT NOT NULL AUTO_INCREMENT,
-	`first_name` CHAR(30) NOT NULL DEFAULT 'UNKNOWN',
-	`last_name` CHAR(30),
-	`class_rank` INT NOT NULL,
-	PRIMARY KEY (`roll_no`)
+	roll_no INT NOT NULL AUTO_INCREMENT,
+	first_name CHAR(30) NOT NULL DEFAULT 'UNKNOWN',
+	last_name CHAR(30),
+	class_rank INT NOT NULL,
+	PRIMARY KEY (roll_no)
 );
 
 
